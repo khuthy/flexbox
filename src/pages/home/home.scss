@@ -1,3 +1,176 @@
 page-home {
+    /* parent 1 */
+        .parent {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 5px;
+            background: rgb(250, 250, 250);
+            border-radius: 15px 15px 0 0;
+            border: 1px solid #dddddd;
+        }
+        .parent > div, .parent2 > div{
+            margin: 0.1em;
+            padding: 0.5em;
+        }
+        
+
+        .div1 {
+            background: #dddddd;
+            height: 40px;
+            width: 66%;
+            border-radius: 50px 50px 50px 50px;
+            border: 1px solid rgb(146, 146, 146);
+
+        }
+        .div2 {
+        
+            height: 40px;
+            width: 10%;
+
+        }
+        .div3 {
+          
+            height: 40px;
+            width: 10%;
+
+        }   
+        .div4 {
+            height: 40px;
+            width: 10%;
+
+        }  
+
+        /* parent 2 */
+
+        .parent2 {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1378&q=80');
+            background-position: center center;
+            background-size: cover;
+            padding: 10px;
+            min-height: 50%; 
+            
+
+        }
+    
+        
+
+        .div5 {
+           color: #f9f9f9;
+           text-shadow: 2px 2px #4444;
+            
+        }
+        .div6 p {
+          color: #333;
+          font-size: 17px;
+        }
+
+        .div7 {
+            background: #f8f8f8;
+            box-shadow: 2px 4px 10px #999;
+            border-radius: 10px;
+            height: auto;
+            width: 70%;
+            position: absolute;
+            top: 45%;
+            padding: 30px;
+         
+       
+           
+            
+        }
+        .title {
+            display: flex;
+            justify-content: space-between;
+        }
+        .title > .locname {
+            flex-basis: 70%;
+        
+        } 
+       
+        .image {
+            width: 10vh;
+            height: 10vh;
+            border-radius: 50%;
+            background-image: url('https://images.unsplash.com/reserve/KOe8tuA2RNGsiN2Zt2Ts_IMG_4649.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');
+            background-size: cover;
+            background-position: center center;   
+        } 
+
+        .name {
+           
+            height: 20px;
+            width: 100%;
+            font-size: 20px;
+           
+        }
+        .location {
+            
+           color: grey;
+           
+           
+          
+        }
+        
+    
+        
+        
+
+        .parent3 {
+           display: column;
+           width: 100%;
+           align-items: stretch;
+           position: absolute;
+           left: 0;
+           bottom: 0;
+           right: 0;
+         
+           
+        }
+     
+
+        .subparent3a  {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin: 1%;
+            }
+            .subparent3b  {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+             
+                }
+
+        .subparent3a > div {
+            background: rgb(148, 56, 56);
+            height: 50px;
+            width: 100px;
+            margin: 0;
+            margin-left: 1%;
+            
+            
+            
+            
+        }
+        .subparent3b > div {
+            background: rgb(148, 56, 56);
+            height: 50px;
+            width: 100px;
+            
+            
+         
+           
+            
+            
+        }
+
 
 }
